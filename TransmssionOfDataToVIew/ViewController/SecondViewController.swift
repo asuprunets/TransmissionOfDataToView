@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SecondViewController.swift
 //  TransmssionOfDataToVIew
 //
 //  Created by Aleksandr Suprunets on 4/27/19.
@@ -8,15 +8,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SecondViewController: UIViewController {
 
+    @IBOutlet weak var showLable: UILabel!
+    
+    var lableText = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
 
+        showLable.text = lableText
         
     }
-
-
+    
 }
+ 
+    
 
